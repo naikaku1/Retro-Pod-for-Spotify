@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Retro Pod for Spotify",
+  "version": "0.1.0",
+  "description": "Spotifyを懐かしのクリックホイール付きプレイヤーに変身させる拡張機能。PiPモード、歌詞同期、テーマ変更機能付き。",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://open.spotify.com/*"
+  ],
+  "action": {
+    "default_title": "Retro Podを起動"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://open.spotify.com/*"
+      ],
+      "css": [
+        "ipod_pip_styles.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "ipod_pip_styles.css" ],
+      "matches": [ "https://open.spotify.com/*" ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Retro Pod for Spotify",
+  "name": "Click-ify",
   "version": "0.1.0",
   "description": "Spotifyを懐かしのクリックホイール付きプレイヤーに変身させる拡張機能。PiPモード、歌詞同期、テーマ変更機能付き。",
   "permissions": [

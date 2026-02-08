@@ -1,4 +1,4 @@
-# Retro Pod for Spotify
+# Click-ify for Spotify
 
 ![License](https://img.shields.io/badge/license-MIT-000000.svg?style=flat-square)
 ![Version](https://img.shields.io/badge/version-0.1.0-red.svg?style=flat-square)
@@ -24,7 +24,7 @@
 
 <h2 id="-english">English</h2>
 
-**Retro Pod** is a Chrome Extension that introduces an **iPod Classic interface** to Spotify via the modern **Document Picture-in-Picture API**.
+**Click-ify** is a Chrome Extension that introduces an **iPod Classic interface** to Spotify via the modern **Document Picture-in-Picture API**.
 It opens a floating, always-on-top window that lets you control your music and view synced lyrics while you work.
 
 ### Features
@@ -66,7 +66,7 @@ Since this is a proof-of-concept project, please install it manually:
 
 <h2 id="-japanese">日本語</h2>
 
-**Retro Pod** は、最新の **Document Picture-in-Picture API** を使用して、Spotify Web Playerに **iPod Classic風のPiPウィンドウ** を追加するChrome拡張機能です。
+**Click-ify** は、最新の **Document Picture-in-Picture API** を使用して、Spotify Web Playerに **iPod Classic風のPiPウィンドウ** を追加するChrome拡張機能です。
 最前面に固定されたウィンドウで、作業をしながら歌詞を見たり、クリックホイールで音量を調整したりできます。
 
 ### 主な機能
